@@ -1,0 +1,384 @@
+body 
+{
+    background-color: white;
+}
+.header1
+{
+    position: relative;
+    bottom:8px;
+    right:8px;;
+    height: 120px;
+    width: 1365px;
+    background-color:orange;
+    border-radius:20px;
+    text-align: center;
+    
+}
+
+.name1
+{
+
+    
+    
+    color:white;
+    font-family: 'Pacifico', cursive;
+    font-weight: 2;
+    font-size: 28px; 
+    text-shadow: 5px 8px 5px black;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.logo
+      {
+          height: 80px;
+          width:80px;
+          position: relative;
+          bottom:25px;
+      }
+
+hr
+{
+    height:10px;
+    width: 1350px;
+    border-top: 1px dashed ;
+
+}
+
+#navbar{
+    display:flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 14vh;
+    width: 1350px;;
+    font-family: 'Pacifico', cursive;
+    margin-top:10px;
+   border: 2px solid black;
+   border-radius:15px;
+}
+
+#navcontent{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Navbar content styling*/
+ul li{
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+ul li a{
+    padding: 1px;
+    color:white;
+    text-decoration: none;
+    border-radius:10px;
+}
+ul li a:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+
+
+.bgimg
+{
+    height:700px;
+    width: 1350px;
+    background-image: url(iamges/food1.jpg);
+    animation: bgimg 20s infinite;
+
+}
+
+@keyframes bgimg 
+{
+    250%
+    {
+        background-image: url(iamges/food2.jpg)
+    }
+    25%
+    {
+        background-image: url(iamges/food3.jpg)
+    }
+    25%
+    {
+        background-image: url(images/food4.jpg)
+    }
+    
+}
+
+.order_now
+{
+    height: 100px;
+    width:300px;
+    position: relative;
+    left:500px;
+    top:250px;
+
+}
+.order1
+{
+height:50px;
+width: 300px;
+background-color: black;
+border-radius:20px;
+position: relative;
+left: 150px;
+top:150px;
+opacity: 70%;
+border : dashed 3px grey;
+font-family: cursive;
+color:white;
+font-size:30px;
+display: flex; 
+justify-content: center;
+
+}
+
+.order2
+{
+height:50px;
+width: 300px;
+background-color: black;
+border-radius:20px;
+position: relative;
+left:850px;
+top: 90px;
+opacity: 70%;
+border : dashed 3px grey;
+font-family: cursive;
+color:white;
+font-size:30px;
+display: flex; 
+justify-content: center;
+}
+
+.btn1
+{
+        background: white;
+        background-image: -webkit-linear-gradient(top, white, black);
+        background-image: -moz-linear-gradient(top, white, black);
+        background-image: -ms-linear-gradient(top, white, black);
+        background-image: -o-linear-gradient(top, white, black);
+        background-image: linear-gradient(to bottom, white, black);
+        -webkit-border-radius: 20;
+        -moz-border-radius: 20;
+        border-radius: 12px;
+        font-family: 'Pacifico', cursive;;
+        color: black;
+        font-size: 25px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        position: relative;
+        left:600px;
+        top:150px;
+        opacity: 90%;
+        font-weight: bold;
+      }
+      
+      .btn1:hover {
+        background: red;
+        background-image: -webkit-linear-gradient(top, red, #3498db);
+        background-image: -moz-linear-gradient(top, red, #3498db);
+        background-image: -ms-linear-gradient(top, red, #3498db);
+        background-image: -o-linear-gradient(top, red, #3498db);
+        background-image: linear-gradient(to bottom, red, #3498db);
+        text-decoration: none;
+      }
+
+
+      .btn2
+{
+        background: white;
+        background-image: -webkit-linear-gradient(top, white, black);
+        background-image: -moz-linear-gradient(top, white, black);
+        background-image: -ms-linear-gradient(top, white, black);
+        background-image: -o-linear-gradient(top, white, black);
+        background-image: linear-gradient(to bottom, white, black);
+        -webkit-border-radius: 20;
+        -moz-border-radius: 20;
+        border-radius: 12px;
+        font-family: 'Pacifico', cursive;;
+        color: black;
+        font-size: 25px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+        position: relative;
+        left:700px;
+        top:150px;
+        opacity: 90%;
+        font-weight: bold;
+      }
+      
+      .btn2:hover {
+        background: red;
+        background-image: -webkit-linear-gradient(top, red, #3498db);
+        background-image: -moz-linear-gradient(top, red, #3498db);
+        background-image: -ms-linear-gradient(top, red, #3498db);
+        background-image: -o-linear-gradient(top, red, #3498db);
+        background-image: linear-gradient(to bottom, red, #3498db);
+        text-decoration: none;
+      }
+
+      .develop
+      {
+          height: 80px;
+          width: 1350px;
+          background-color: cadetblue;
+          justify-content:center;
+          display: flex;
+          font-family: 'Ubuntu Mono', monospace;
+          border-radius: 15px;
+
+
+
+      }
+
+      .aboutdiv
+      {
+          height: 360px;
+          width: 1350px;
+          background-color: purple;
+            border-radius: 5px;
+            position: relative;
+            z-index: 1;
+            background: inherit;
+            overflow: hidden;
+            justify-content: center;
+            top: 40px;
+            font-family:'Pacifico', cursive;
+          
+
+      }
+
+      .aboutdiv:before
+      {
+        content: "";
+        position: absolute;
+        background: inherit;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+        filter: blur(10px);
+        margin: -20px;
+      }
+
+      .contact2
+      {
+        line-height: 32px;
+        position: absolute;
+        left: 900px;
+        color: white;
+        top: 320px;
+        font-family: arial;
+        font-size: 17px;
+        font-weight: 600;
+        width: 350px;
+        height: 35 0px;
+        border-color: #00297A;
+        border-radius: 4px;
+        border: 1px solid black;
+        border-style: solid;
+        background-color: #FFB630;
+        text-indent: 30px
+      }
+
+      .form1
+      {
+        
+          height: 400px;
+          width: 300px;
+          background-color: purple;
+            width: 300px;;
+            height: 350px;
+            border-radius: 5px;
+            position: relative;
+            z-index: 1;
+            background: inherit;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            left: 450px;
+            top: 40px;
+            font-family:'Pacifico', cursive;
+
+          }
+          
+          .form1:before {
+            content: "";
+            position: absolute;
+            background: inherit;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+            filter: blur(10px);
+            margin: -20px;
+          }
+      
+
+      .btn3
+      {
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      
+
+
+      
+
+      
+      .menu
+
+      {
+          height: 620px;
+          width: 400px;
+          background-color: purple;
+          border-radius: 5px;
+          position: relative;
+          z-index: 1;
+          background: inherit;
+          overflow: hidden;
+          
+          left: 450px;
+          top: 40px;
+          font-family:'Pacifico', cursive;
+
+        }
+        
+        .menu:before 
+        {
+          content: "";
+          position: absolute;
+          background: inherit;
+          z-index: -1;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+          filter: blur(10px);
+          margin: -20px;
+        }
+
+        .offer2
+        {
+            height:  320px;
+            width:700px;
+
+        }
+      
+      
+
+      
+
+      
+
+
+
